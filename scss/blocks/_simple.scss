@@ -1,0 +1,49 @@
+.simple {
+    background-color: $pink-background;
+    padding-top: 45px;
+}
+.simple-container {
+    display: flex;
+    justify-content: space-between;
+
+}
+.simple-content {
+    max-width: 620px;
+
+}
+.simple-img {
+    object-fit: contain;
+    margin-bottom: -40px;
+}
+.simple-item {
+    padding-left: 40px;
+    position: relative;
+    margin-bottom: 15px;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 25.78px;
+
+    &::before {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        content: '';
+        background-color: white;
+        background-repeat: no-repeat;
+        background-position: center center;
+        border-radius: 3px;
+        left: 0;
+        top: 0;
+    }
+    &:first-child{
+        &::before{
+            background-image: url('../../img/simple-first.png');
+        }
+    }
+}
+.simple-apps-list{
+    display: flex;
+    align-items: center;
+    width: 380px;
+    justify-content: space-between;
+}

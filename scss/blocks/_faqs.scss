@@ -1,0 +1,45 @@
+.faqs {
+    margin-top: 80px;
+    text-align: center;
+}
+.faqs-container {
+    max-width: 640px;
+}
+.faqs-title {
+    max-width: 522px;
+    margin: 20px auto;
+}
+.faqs-input {
+    border: 1px solid $pink;
+    padding: 15px;
+    border-radius: 5px;
+    width: 100%;
+    &:focus {
+        outline: 2px solid $pink;
+    }
+}
+.faqs-input-group {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    position: relative;
+}
+.input-group {
+    width: 273px;
+}
+.question-input{
+    padding-right: 130px;
+}
+.faqs-button {
+    position: absolute;
+    right: 0;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23.44px;
+     border: none;
+    cursor: pointer;
+    padding: 12px 35px;
+}

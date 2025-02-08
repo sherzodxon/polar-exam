@@ -1,0 +1,462 @@
+/* hind-madurai-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Hind Madurai";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/hind-madurai-v11-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* hind-madurai-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Hind Madurai";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/hind-madurai-v11-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* hind-madurai-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Hind Madurai";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/hind-madurai-v11-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v47-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/roboto-v47-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* fredoka-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Fredoka";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/fredoka-v14-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* fredoka-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Fredoka";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/fredoka-v14-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+ol,
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+body {
+  font-family: "Hind Madurai";
+  color: rgb(15, 1, 1);
+}
+
+a {
+  text-decoration: none;
+  color: rgb(21, 1, 1);
+}
+
+.container {
+  max-width: 1125px;
+  margin: 0 auto;
+}
+
+.buy-link {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22.08px;
+  background-color: rgb(210, 49, 102);
+  color: rgb(250, 250, 250);
+  padding: 9px 34px;
+  border-radius: 5px;
+}
+
+.title {
+  font-size: 44.2px;
+  font-weight: 600;
+  line-height: 48.84px;
+}
+
+.header {
+  background-color: rgb(242, 206, 218);
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-list {
+  display: flex;
+}
+
+.header-item {
+  margin-right: 24px;
+}
+.header-item:last-child {
+  margin-right: 0;
+}
+
+.header-item-link {
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.41px;
+}
+.header-item-link:hover {
+  color: rgb(210, 49, 102);
+}
+
+.intro {
+  background-color: rgb(242, 206, 218);
+  margin-top: 0;
+  padding-bottom: 120px;
+}
+
+.intro-container {
+  padding: 115px 0;
+  background: url(../../img/intr-bg.png) no-repeat right center;
+  position: relative;
+}
+.intro-container::after {
+  position: absolute;
+  width: 365px;
+  height: 353px;
+  background-color: rgb(210, 49, 102);
+  border-radius: 50%;
+  content: "";
+  right: 110px;
+  bottom: -70px;
+  opacity: 0.1;
+}
+.intro-container::before {
+  position: absolute;
+  width: 851px;
+  height: 548px;
+  content: "";
+  background: url("../../img/intro-after.png") no-repeat center center;
+  right: -100px;
+  z-index: 1;
+}
+
+.intro-content {
+  max-width: 665px;
+}
+
+.intro-title {
+  margin-top: 0;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.41px;
+  letter-spacing: 0.1em;
+}
+
+.intro-text {
+  font-family: "Fredoka";
+  font-size: 57.33px;
+  font-weight: 600;
+  line-height: 69.08px;
+  margin: 10px 0;
+}
+
+.intro-span {
+  color: rgb(210, 49, 102);
+}
+
+.intro-info {
+  font-size: 18px;
+  margin-bottom: 50px;
+  width: 523px;
+}
+
+.service-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+
+.service-item {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.03);
+  border-radius: 7px;
+  width: 210px;
+}
+
+.brown {
+  background-color: rgb(242, 206, 218);
+}
+
+.brown-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brown-content {
+  max-width: 442px;
+}
+
+.brown-text {
+  margin-bottom: 30px;
+}
+
+.product-title {
+  text-align: center;
+}
+
+.product-nav-list {
+  display: flex;
+  justify-content: space-between;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.product-nav-link {
+  background-color: transparent;
+  border: none;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.09px;
+  opacity: 0.6;
+  border-bottom: 3px solid transparent;
+  cursor: pointer;
+}
+
+.product-nav-link--active {
+  opacity: 1;
+  border-color: rgb(210, 49, 102);
+}
+
+.product-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.product-item:nth-child(even) {
+  flex-direction: row-reverse;
+  text-align: right;
+}
+.product-item:nth-child(4) {
+  text-align: left;
+}
+
+.product-item-content {
+  max-width: 454px;
+}
+
+.product-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-user-head {
+  display: flex;
+  align-items: center;
+}
+
+.product-user-name {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28.13px;
+  margin: 0;
+}
+
+.product-user-job {
+  font-size: 12px;
+  text-align: left;
+  margin: 0;
+}
+
+.product-user-img {
+  border-radius: 50%;
+  margin-right: 24px;
+}
+
+.product-user-feedback {
+  max-width: 322px;
+  padding-left: 24px;
+  margin-top: 60px;
+  position: relative;
+}
+.product-user-feedback::before {
+  position: absolute;
+  width: 11px;
+  height: 10px;
+  content: "";
+  background-image: url("../../img/product-after.svg");
+  left: 3px;
+  top: 3px;
+}
+.product-user-feedback::after {
+  position: absolute;
+  width: 11px;
+  height: 10px;
+  content: "";
+  background-image: url("../../img/product-after.svg");
+  bottom: 0;
+  transform: rotateY(180deg);
+  margin-left: 5px;
+}
+
+.product-user-controller {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 220px;
+  margin-top: 30px;
+}
+
+.product-controller-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 69%;
+}
+
+.product-control-user-img {
+  border-radius: 50%;
+}
+
+.product-controller-item--active .product-control-user-img {
+  border: 1px solid rgb(210, 49, 102);
+  width: 58px;
+  height: 58px;
+}
+
+.product-user-controller-button {
+  background-color: transparent;
+  border: none;
+  width: 14px;
+  height: 14px;
+  background-image: url("../../img/user-next.svg");
+}
+
+.prev-controller {
+  transform: rotateY(180deg);
+}
+
+.control-disabled {
+  opacity: 0.5;
+}
+
+.simple {
+  background-color: rgb(242, 206, 218);
+  padding-top: 45px;
+}
+
+.simple-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.simple-content {
+  max-width: 620px;
+}
+
+.simple-img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-bottom: -40px;
+}
+
+.simple-item {
+  padding-left: 40px;
+  position: relative;
+  margin-bottom: 15px;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 25.78px;
+}
+.simple-item::before {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  content: "";
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 3px;
+  left: 0;
+  top: 0;
+}
+.simple-item:first-child::before {
+  background-image: url("../../img/simple-first.png");
+}
+
+.simple-apps-list {
+  display: flex;
+  align-items: center;
+  width: 380px;
+  justify-content: space-between;
+}
+
+.faqs {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.faqs-container {
+  max-width: 640px;
+}
+
+.faqs-title {
+  max-width: 522px;
+  margin: 20px auto;
+}
+
+.faqs-input {
+  border: 1px solid rgb(210, 49, 102);
+  padding: 15px;
+  border-radius: 5px;
+  width: 100%;
+}
+.faqs-input:focus {
+  outline: 2px solid rgb(210, 49, 102);
+}
+
+.faqs-input-group {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.input-group {
+  width: 273px;
+}
+
+.question-input {
+  padding-right: 130px;
+}
+
+.faqs-button {
+  position: absolute;
+  right: 0;
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23.44px;
+  border: none;
+  cursor: pointer;
+  padding: 12px 35px;
+}

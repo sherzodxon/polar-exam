@@ -1,0 +1,124 @@
+.product-title {
+    text-align: center;
+}
+.product-nav-list {
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+    margin: 0 auto;
+}
+.product-nav-link {
+    background-color: transparent;
+    border: none;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.09px;
+    opacity: 0.6;
+    border-bottom: 3px solid transparent;
+    cursor: pointer;
+}
+.product-nav-link--active {
+    opacity: 1;
+    border-color: $pink;
+}
+.product-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &:nth-child(even) {
+        flex-direction: row-reverse;
+        text-align: right;
+    }
+    &:nth-child(4) {
+        text-align: left;
+    }
+}
+.product-item-content {
+    max-width: 454px;
+}
+.product-list {
+    display: flex;
+    flex-direction: column;
+
+}
+.product-user-head {
+    display: flex;
+    align-items: center;
+}
+.product-user-name {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28.13px;
+    margin: 0;
+}
+.product-user-job {
+    font-size: 12px;
+    text-align: left;
+    margin: 0;
+}
+.product-user-img {
+    border-radius: 50%;
+    margin-right: 24px;
+}
+.product-user-feedback {
+    max-width: 322px;
+    padding-left: 24px;
+    margin-top: 60px;
+    position: relative;
+    &::before {
+        position: absolute;
+        width: 11px;
+        height: 10px;
+        content: "";
+        background-image: url('../../img/product-after.svg');
+        left: 3px;
+        top: 3px;
+    }
+    &::after {
+        position: absolute;
+        width: 11px;
+        height: 10px;
+        content: "";
+        background-image: url('../../img/product-after.svg');
+        bottom: 0;
+        transform: rotateY(180deg);
+        margin-left: 5px;
+    }
+}
+.product-user-controller {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 220px;
+    margin-top: 30px;
+}
+.product-controller-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 69%;
+}
+.product-control-user-img {
+    border-radius: 50%;
+}
+.product-controller-item--active {
+    .product-control-user-img {
+        border: 1px solid $pink;
+        width: 58px;
+        height: 58px;
+    }
+}
+.product-user-controller-button {
+    background-color: transparent;
+    border: none;
+    width: 14px;
+    height: 14px;
+    background-image: url('../../img/user-next.svg');
+}
+.prev-controller{
+    transform: rotateY(180deg);
+}
+.control-disabled{
+    opacity: 0.5;
+}

@@ -1,0 +1,59 @@
+.intro {
+    background-color: $pink-background;
+    margin-top: 0;
+    padding-bottom: 120px;
+}
+.intro-container{
+    padding: 115px 0;
+    background: url(../../img/intr-bg.png) no-repeat right center;
+    position: relative;
+    &::after{
+        position: absolute;
+        width: 365px;
+        height: 353px;
+        background-color: $pink;
+        border-radius: 50%;
+        content: '';
+        right:110px;
+        bottom: -70px;
+        opacity: 0.1;
+    }
+    &::before{
+        position: absolute;
+        width: 851px;
+        height: 548px;
+        content: '';
+        background: url('../../img/intro-after.png') no-repeat center center;
+        right: -100px;
+        z-index: 1;
+    }
+    
+}
+.intro-content{
+    max-width: 665px;
+}
+.intro-title {
+    margin-top: 0;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.41px;
+    letter-spacing: 0.1em;
+
+}
+.intro-text{
+    font-family: "Fredoka";
+    font-size: 57.33px;
+    font-weight: 600;
+    line-height: 69.08px;
+    margin: 10px 0;
+} 
+.intro-span{
+    color: $pink;
+}
+.intro-info{
+    font-size: 18px;
+    margin-bottom: 50px;
+    width: 523px;
+}
+
